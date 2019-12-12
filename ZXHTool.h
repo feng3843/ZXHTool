@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface ZXHTool : NSObject
 
 #pragma mark - 字符串验证工具
