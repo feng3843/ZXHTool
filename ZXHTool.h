@@ -43,7 +43,7 @@
 +(BOOL) isGiftFileExist:(NSString *)fileName;
 
 //md5加密方法
-+ (NSString *)md5EncryptWithString:(NSString *)string;
+//+ (NSString *)md5EncryptWithString:(NSString *)string;
 
 + (NSString *)getXPMessageTime:(NSString *)timeIntervalStr;
 
