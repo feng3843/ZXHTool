@@ -127,9 +127,6 @@
     //----------将nsdate按formatter格式转成nsstring
     
     NSString *currentTimeString = [formatter stringFromDate:datenow];
-    
-    GDDLog(@"currentTimeString =  %@",currentTimeString);
-    
     return currentTimeString;
     
 }
