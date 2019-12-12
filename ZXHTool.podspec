@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ZXHTool"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ZXHTool."
+  spec.summary      = "常用的工具类"
 
   # ―――  仓库地址  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.homepage     = "https://github.com/feng3843/ZXHTool.git"
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "/*.{h,m}"
+  spec.source_files  = "*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
