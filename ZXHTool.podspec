@@ -12,7 +12,6 @@ Pod::Spec.new do |spec|
   # ―――  仓库地址  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.homepage     = "https://github.com/feng3843/ZXHTool.git"
  
-  #spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
 
   # ―――  认证  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
