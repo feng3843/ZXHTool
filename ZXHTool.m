@@ -1,13 +1,12 @@
 //
-//  FYCheckRuleTool.m
-//  LiveStreamingDemo
+//  ZXHTool.m
 //
 //  Created by ZXH on 2017/6/16.
 //  Copyright © 2017年 ZXH. All rights reserved.
 //
 
 #import "ZXHTool.h"
-#import <CommonCrypto/CommonDigest.h>
+//#import <CommonCrypto/CommonDigest.h>
 #define DEFAULT_VOID_COLOR [UIColor blackColor]
 
 @implementation ZXHTool
@@ -82,23 +81,23 @@
     return isMatch;
 }
 
-+ (NSString *)md5EncryptWithString:(NSString *)string{
-    return [self md5:string];
-}
-
-+ (NSString *)md5:(NSString *)string{
-    const char *cStr = [string UTF8String];
-    unsigned char digest[CC_MD5_DIGEST_LENGTH];
-    
-    CC_MD5(cStr, (CC_LONG)strlen(cStr), digest);
-    
-    NSMutableString *result = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
-    for (int i = 0; i < CC_MD5_DIGEST_LENGTH; i++) {
-        [result appendFormat:@"%02x", digest[i]];
-    }
-    
-    return result;
-}
+//+ (NSString *)md5EncryptWithString:(NSString *)string{
+//    return [self md5:string];
+//}
+//
+//+ (NSString *)md5:(NSString *)string{
+//    const char *cStr = [string UTF8String];
+//    unsigned char digest[CC_MD5_DIGEST_LENGTH];
+//    
+//    CC_MD5(cStr, (CC_LONG)strlen(cStr), digest);
+//    
+//    NSMutableString *result = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
+//    for (int i = 0; i < CC_MD5_DIGEST_LENGTH; i++) {
+//        [result appendFormat:@"%02x", digest[i]];
+//    }
+//    
+//    return result;
+//}
 
 // 时间戳转时间
 + (NSString *)getDateStringWithTimeStr:(NSString *)str{

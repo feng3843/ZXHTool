@@ -4,9 +4,11 @@ Pod::Spec.new do |spec|
   # ――― 简介 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "ZXHTool"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "常用的工具类"
-
+  spec.description  = <<-DESC
+  		这是一段详细描述，在这里你可以随便写。
+                   DESC
   # ―――  仓库地址  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.homepage     = "https://github.com/feng3843/ZXHTool.git"
  
@@ -14,7 +16,7 @@ Pod::Spec.new do |spec|
 
   # ―――  认证  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT"
 
 
   # ――― 作者介绍 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -22,8 +24,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― 平台配置 ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.platform     = :ios
-  spec.ios.deployment_target = "8.0"
+  spec.platform     = :ios,"8.0"
  
 
   # ――― 源码位置 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,6 +53,7 @@ Pod::Spec.new do |spec|
 
  
   spec.frameworks = "Foudation", "UIKit"
+
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"

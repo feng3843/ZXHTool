@@ -1,5 +1,5 @@
 //
-//  FYCheckRuleTool.h
+//  ZXHTool.h
 //
 //
 //  Created by ZXH on 2017/6/16.
