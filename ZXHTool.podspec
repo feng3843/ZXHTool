@@ -4,8 +4,8 @@ Pod::Spec.new do |spec|
   # ――― 简介 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "ZXHTool"
-  spec.version      = "0.0.13"
-  spec.summary      = "常用的工具类"
+  spec.version      = "0.0.2"
+  spec.summary      = "ZXHTool 常用的工具类"
   spec.description  = <<-DESC
   		这是一段详细描述，在这里你可以随便写。
                    DESC
