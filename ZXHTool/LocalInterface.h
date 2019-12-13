@@ -17,7 +17,7 @@
 #endif
 
 //IN18 国际化
-#define Localized(key)  [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"appLanguage"]] ofType:@"lproj"]] localizedStringForKey:key value:nil table:@"Language"]
+#define Localized(key) [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"appLanguage"]] ofType:@"lproj"]] localizedStringForKey:key value:nil table:@"Language"]
 
 //尺寸定义
 #define ScreenWidth        [[UIScreen mainScreen] bounds].size.width
