@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
   # ――― Project Linking 项目引用 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
  
-  spec.frameworks = "Foundation", "UIKit"
+
 
 
 
